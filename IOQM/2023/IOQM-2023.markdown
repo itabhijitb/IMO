@@ -14,12 +14,11 @@ $$a-b=29-7=22$$
 ---
 
 2. Find the number of elements in the set
-   
-  $$\left\{(a, b) \in \mathbb{N}: 2 \leq a, b \leq 2023, \log _a(b)+6 \log _b(a)=5\right\}$$
+   $$\{(a, b) \in \N : 2 \le a, b \le 2023, \log_a(b) +6 \log_b(a)=5\}$$
 
 #### ANS:
 
-$$S=\left\{(a, b) \in \mathbb{N}: 2 \leq a, b \leq 2023, \log _a(b)+6 \log _b(a)=5\right\}$$
+$$S=\{(a, b) \in \N : 2 \le a, b \le 2023, \log_a(b) +6 \log_b(a)=5\}$$
 $$\Rightarrow \log_a(b)+6\log_b(a)=5$$
 $$\Rightarrow \log^2(b)+6\log^2(a)=5\log(b)\log(a)$$
 $$\Rightarrow \log^2(b)-3\log(b)\log(a)-2\log(b)\log(a)+6\log^2(a)=0$$
@@ -36,7 +35,7 @@ $$|S|=|S1|+|S2|=(44-1)+(12-1)=56-2=54$$
 
 $$\frac{16}{37} < \frac{\alpha}{\beta} < \frac{7}{16}$$
 
-Find the smallest possible value of $\beta$.
+Find the smallest possible value of \beta.
 
 #### ANS:
 
@@ -233,14 +232,14 @@ Let $M$ and $N$ be equidistance to $C$ s.t. $\overline{MC}=\overline{NC}$
 Given perimeter of $\Delta MCN=2$
 $$\Rightarrow \overline{MC}+\overline{MN}+\overline{NC}=\overline{MC}+\sqrt{2}\overline{MC}+\overline{MC}=\overline{MC}(2+\sqrt{2})=2$$
 $$\Rightarrow \overline{MC}=\overline{NC}=\frac{2}{2+\sqrt{2}}=(2-\sqrt{2})$$
-
+$$$$
 $$AN: y = (\sqrt{2}-1)x$$
 $$⊥AN: y= -(\sqrt{2}+1)x + C$$
 $$\text{Mid point of AN}=\left(\frac{1}{2},\frac{\sqrt{2}-1}{2}\right)$$
 $$C=\frac{\sqrt{2}-1}{2}+\frac{\sqrt{2}+1}{2}=\sqrt{2}$$
-$$⊥AN: y= -(\sqrt{2}+1)x + \sqrt{2}$$
+$$AN: y= -(\sqrt{2}+1)x + \sqrt{2}$$
 $$AC: y = x$$
-$⊥AN$ intersect $AC$ at O, which is the circumcenter of $\Delta MAN$
+$\overline{AN}$ intersect $\overline{AC}$ at O, which is the circumcenter of $\Delta MAN$
 
 Solving for $O(x,y)$ ...
 
@@ -256,7 +255,7 @@ $$\left(\frac{OP}{OA}\right)^2=\left(\frac{MP'}{BM}\right)^2=\left(\frac{MC}{2BM
 $$=\left(\frac{\sqrt{2}(\sqrt{2}-1)}{2(\sqrt{2}-1)}\right)^2=\frac{1}{2}=\frac{m}{n}$$
 $$m+n=15$$
 ---
-1.  The six sides of a convex hexagon A_1 A_2 A_3 A_4 A_5 A_6 are colored red. Each of the diagonals of the hexagon is colored either red or blue. If N is the number of colorings such that every triangle $A_i A_j A_k$, where $1 \leq i<j<k \leq 6$, has at least one red side, find the sum of the squares of the digits of N.
+16. The six sides of a convex hexagon A_1 A_2 A_3 A_4 A_5 A_6 are colored red. Each of the diagonals of the hexagon is colored either red or blue. If N is the number of colorings such that every triangle $A_i A_j A_k$, where $1 \leq i<j<k \leq 6$, has at least one red side, find the sum of the squares of the digits of N.
 
 #### ANS:
 
@@ -271,7 +270,7 @@ So N = $2^3\times(2^3-1)\times(2^3-1)=8\times7\times 7= 392$
 So, sum of square of digits = $3^2+9^2+2^2 = 9+81+4 = 94$
 
 17. Consider the set $$\mathcal{S}=\{(a, b, c, d, e): 0<a<b<c<d<e<100\}$$
-where a, b, c, d, e are integers. If D is the average value of the fourth element of such a tuple in the set, taken over all the elements of $\mathcal{S}$, find the largest integer less than or equal to D.
+where a, b, c, d, e are integers. If D is the average value of the fourth element of such a tuple in the set, taken over all the elements of \mathcal{S}, find the largest integer less than or equal to D.
 
 #### ANS:
 
